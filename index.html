@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <!-- angular stylesheet -->
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <link rel="stylesheet" type="text/css" href="/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+</head>
+<body ng-app="app">
+  <div id="nav" class="clearfix">
+    <a href="#about" class="nav" target="_self">ABOUT</a>
+    <a href="#resume" class="nav" target="_self">RESUME</a>
+    <a href="#work" class="nav" target="_self">WORK</a>
+    <a href="#contact" class="nav" target="_self">CONTACT</a>
+  </div>
+  <main ui-view>
+  </main>
+
+<!-- scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+  <script src="/app.module.js"></script>
+  <script src="/app.routes.js"></script>
+  <script src="/home.controller.js"></script>
+</body>
+</html>
