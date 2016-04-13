@@ -49,8 +49,14 @@ body {
   color: black !important;
 }
 
+.material-icons:hover {
+  background-color: #111E3D !important;
+  /*opacity: */
+  color: white !important;
+}
+
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a.md-default-theme:not(.md-button),
@@ -96,10 +102,10 @@ p {
 }
 
 #about {
+  padding-top: 1%;
   font-size: 14px;
-  background-color: white;
   /*padding-top: 0;*/
-  padding: 2%;
+  /*padding: 2%;*/
   box-sizing: border-box;
   /*color: black !important;*/
   color: #808080;
@@ -117,16 +123,25 @@ p {
 }
 
 #work {
-  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
   padding: 2%;
   box-sizing: border-box;
   /*color: black !important;*/
   /*font-weight: 400 !important;*/
   text-align: left;
   color: #808080;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.8em;
 }
 
 #resume {
+  background-color: white;
   font-size: 14px;
   padding: 2%;
   box-sizing: border-box;
@@ -148,6 +163,7 @@ p {
 }
 
 #contact {
+  background-color: white;
   padding: 2%;
   box-sizing: border-box;
   /*font-weight: 400 !important;*/
@@ -204,4 +220,51 @@ h4 {
   right: 5px;
 }
 
+#brick-breaker {
+  height: 250px;
+  width: 250px;
+  background-image: url("https://i.imgur.com/TTBsx6r.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*background-color: rgba(0,0,0,0.5);*/
+  /*opacity: 0;*/
+  z-index: 1000;
+}
+
+#gitlove {
+  background-image: url("https://i.imgur.com/pZ8XO0X.png");
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+#vurs {
+  background-image: url("https://i.imgur.com/Snm8of1.png");
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+#juicy {
+  background-image: url("https://i.imgur.com/Z6BmKr4.png");
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+#projects {
+  display: inline;
+}
+
+#brick-breaker:hover #hi{
+  opacity: 1;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
 
