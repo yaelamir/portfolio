@@ -1,42 +1,52 @@
 * {
-  font-weight: 100;
+  /*font-weight: 200;*/
 }
 
 body {
   font-family: 'Lato', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
 #nav {
   width: 100%;
   text-align: center;
-  background-color: white;
+  background-color: rgba(20, 20, 20, 0);
+  /*opacity: 0;*/
+  /*background: rgba(0,0,0,0.2);*/
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   /*-webkit-padding-start: 30px;*/
   padding-bottom: 15px;
-  margin-top: 0;
-  padding-top: 15px;
+  /*margin-top: 0;*/
+  padding-top: 20px;
   margin: 0 auto;
   z-index: 100;
-  color: black !important;
+  /*font-weight: 200;*/
+  /*color: white !important;*/
+  /*overflow: visible !important;*/
+  /*font-weight: 200 !important;*/
+}
+
+#name {
+  padding-top: 50px;
+  padding-left: 35px;
 }
 
 #nav a {
   font-size: 1.2em;
-  margin: 20px;
-  font-weight: lighter;
+  margin: 0 35px;
+  font-weight: 300;
+  /*font-weight: lighter;*/
   /*background-color: transparent;*/
-  color: black !important;
+  /*color: black !important;*/
 }
 
 #nav a:hover {
-  color: #ADC3F2 !important;
-}
-
-#nav a:active {
-    color: blue !important;
+  /*color: #ADC3F2 !important;*/
+  color: black !important;
 }
 
 a:link {
@@ -45,11 +55,12 @@ a:link {
 
 a.md-default-theme:not(.md-button),
 a:not(.md-button) {
-  color: black !important;
+  color: white !important;
   line-height: 30px;
 }
 
 h1 {
+  font-family: 'Lato', sans-serif;
   letter-spacing: .2em;
   font-size: 84px;
   font-weight: 100;
@@ -59,6 +70,19 @@ h1 {
   padding-top: 0;
 }
 
+p {
+  /*font-size: .9em;*/
+  /*font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-left: 5%;*/
+  /*color: #808080;*/
+}
+
 #home {
   background-attachment: fixed;
   background-image: url("https://i.imgur.com/PlJZuna.png");
@@ -66,12 +90,118 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 10%;
+  /*padding-top: 10%;*/
   padding-bottom: 50%;
   margin: 0 auto;
 }
 
 #about {
-  background-color: #DAD6D8;
-  padding: 5% 0;
+  font-size: 14px;
+  background-color: white;
+  /*padding-top: 0;*/
+  padding: 2%;
+  box-sizing: border-box;
+  /*color: black !important;*/
+  color: #808080;
+  /*font-weight: 400 !important;*/
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+
+#work {
+  background-color: white;
+  padding: 2%;
+  box-sizing: border-box;
+  /*color: black !important;*/
+  /*font-weight: 400 !important;*/
+  text-align: left;
+  color: #808080;
+}
+
+#resume {
+  font-size: 14px;
+  padding: 2%;
+  box-sizing: border-box;
+  /*color: black !important;*/
+  /*font-weight: 400 !important;*/
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.8em;
+  color: #777777;
+
+}
+
+#contact {
+  padding: 2%;
+  box-sizing: border-box;
+  /*font-weight: 400 !important;*/
+  text-align: left;
+  color: black !important;
+}
+
+h2 {
+  letter-spacing: 1em;
+  font-size: 24px;
+  font-weight: 300 !important;
+  /*margin: 0 0 0 5%;*/
+  padding-bottom: 2%;
+  color: black !important;
+}
+
+h3 {
+  /*font-weight: 300;*/
+  letter-spacing: 0.5em;
+  font-size: 20px;
+  font-weight: 300 !important;
+  color: black !important;
+  /*margin: 0 0 0 5%;*/
+  /*padding-bottom: 2%;*/
+}
+
+h4 {
+  /*font-weight: 300;*/
+  letter-spacing: 0.2em;
+
+  /*font-weight: 300 !important;
+  color: black !important;*/
+  /*margin: 0 0 0 5%;*/
+  /*padding-bottom: 2%;*/
+}
+
+.material-icons {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  /*text-align: center;*/
+  border-radius: 50%;
+  color: black;
+  font-weight: 900 !important;
+  /*text-align: center;*/
+  font-size: 40px !important;
+  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  margin: 5px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+
