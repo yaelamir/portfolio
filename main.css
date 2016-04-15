@@ -169,6 +169,13 @@ p {
   /*font-weight: 400 !important;*/
   text-align: left;
   color: black !important;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.8em;
 }
 
 h2 {
@@ -178,6 +185,7 @@ h2 {
   /*margin: 0 0 0 5%;*/
   padding-bottom: 2%;
   color: black !important;
+  overflow: hidden;
 }
 
 h3 {
@@ -220,51 +228,99 @@ h4 {
   right: 5px;
 }
 
-#brick-breaker {
-  height: 250px;
+
+/*#hi {
+  z-index: -1000;
+  opacity: 0;
+  margin-right: 50px;
+  width: 250px;
+  height : 250px;
+}
+
+#hi:hover {
+  z-index: 1000;
+  opacity: 1;
+  margin-right: 50px;
+}*/
+/*#brick-breaker:hover {
+  height: 175px;
   width: 250px;
   background-image: url("https://i.imgur.com/TTBsx6r.png");
-  background-size: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+  /*opacity: 0;*/
+  /*z-index: 1000;*/
+/*}*/
+
+#brick-breaker {
+  height: 137px;
+  width: 250px;
+  background-image: url("https://i.imgur.com/TTBsx6r.png");
+  background-size: 250px;
   background-repeat: no-repeat;
   /*background-color: rgba(0,0,0,0.5);*/
   /*opacity: 0;*/
-  z-index: 1000;
+  /*z-index: 1000;*/
+  /*position: initial;*/
+  margin: 10px;
+
 }
 
 #gitlove {
   background-image: url("https://i.imgur.com/pZ8XO0X.png");
-  height: 250px;
+  height: 137px;
   width: 250px;
   background-size: 250px;
   background-repeat: no-repeat;
+  /*position: initial;*/
+  margin: 10px;
+
 }
 
 #vurs {
   background-image: url("https://i.imgur.com/Snm8of1.png");
-  height: 250px;
+  height: 137px;
   width: 250px;
   background-size: 250px;
   background-repeat: no-repeat;
+  margin: 10px;
+  /*position: initial;*/
+
 }
 
 #juicy {
   background-image: url("https://i.imgur.com/Z6BmKr4.png");
-  height: 250px;
+  height: 137px;
   width: 250px;
   background-size: 250px;
   background-repeat: no-repeat;
+  /*position: initial;*/
+  margin: 10px;
+
 }
 
 #projects {
   display: inline;
 }
 
-#brick-breaker:hover #hi{
+/*#brick-breaker:hover #hi{
   opacity: 1;
-}
+}*/
 
 img {
   height: 50px;
   width: 50px;
 }
+
+#icons {
+  display: -webkit-box;
+}
+
+
+
+
+
+
+
 

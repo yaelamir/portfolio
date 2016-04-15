@@ -74,11 +74,9 @@
 <div id="work">
   <h2>PROJECTS</h2>
   <div id="projects">
-    <md-grid-list md-cols="4" md-row-height="4:4">
+    <md-grid-list md-cols="4" md-cols-sm="2" md-cols-md="4" md-cols-lg="4" md-row-height="4:2">
       <md-grid-tile>
-        <div id="brick-breaker">
-          <!-- <span id="hi">hi</span> -->
-        </div>
+        <div ng-click="showBrick = !showBrick" id="brick-breaker"></div>
       </md-grid-tile>
       <md-grid-tile>
         <div id="gitlove"></div>
@@ -97,9 +95,28 @@
   <!-- <img src="http://wattsand.com/images/linkedin.png" alt="linkdin"> -->
   <!-- <img src="http://wattsand.com/images/email.png" alt="email"> -->
   <!-- <i class="material-icons">email</i> -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/120px-Octicons-mark-github.svg.png" alt="github">
-  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJkD9szwADkk5StNE8eInvSXj8junYSA-GOScFG_CbRoC-toVaEc3AnfBS" alt="linkdin">
-  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmQLqgqju6SHZqvh_FnMntjd3yT9qJItDQG-P6b23U66oYLvjMlZRV7UI" alt="email">
-  <img src="https://cdn1.iconfinder.com/data/icons/phones-2/512/phone_symbol_1-128.png" alt="phone">
-  <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/v1/202290/home-icon-strikingly_f7wi0x.png" alt="address">
+  <md-grid-list md-cols="4" md-row-height="4:4">
+    <div id="icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/120px-Octicons-mark-github.svg.png" alt="github">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJkD9szwADkk5StNE8eInvSXj8junYSA-GOScFG_CbRoC-toVaEc3AnfBS" alt="linkdin">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmQLqgqju6SHZqvh_FnMntjd3yT9qJItDQG-P6b23U66oYLvjMlZRV7UI" alt="email">
+      <div ng-click="showPhone = !showPhone"><img src="https://cdn1.iconfinder.com/data/icons/phones-2/512/phone_symbol_1-128.png" alt="phone"></div>
+      <div ng-click="showAddress = !showAddress"><img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/v1/202290/home-icon-strikingly_f7wi0x.png" alt="address"></div>
+      <div ng-show="showAddress"><p>111 West 7th Street</p></div>
+      <div ng-show="showPhone"><p>323-308-9801</p></div>
+    </div>
+  </md-grid-list>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
