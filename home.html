@@ -9,8 +9,30 @@
 </div>
 <div id="about">
   <h2>ABOUT</h2>
-  <p>Hi, my name is Yael Amir and I am a
-  full stack web developer.</p>
+  <p>Hi my name is Yael Amir and I'm a front end developer with experience
+     in back end development. Having graduated from General Assembly's Web
+     Development Immersive program, I gained a solid foundation in the
+     fundamentals of software development and now wish to further expand
+     my developmental skills. GA has exposed me to the dedication, work
+     ethic, and professionalism that are required to continue growing as
+     a developer.
+  </p>
+  <p>As a former educator, I am enthusiastic about growth and knowledge,
+     which are just some things that I strive to expand continuously. My
+     background in teaching has developed crucial skills that are
+     constantly being utilized in my career as a developer, such as
+     problem solving systematically with high attention to detail, working
+     collaboratively as part of a team through a creative and goal oriented
+     process, and patience.
+  </p>
+  <p>In general, I am passionate about creating anything that has a positive
+     impact to those who use it. Being a developer gives me the opportunity
+     to create something by solving complex problems, breaking them down to
+     manageable tasks, and coming up with practical solutions. I am driven
+     by the idea that software and web development are expansive and constantly
+     evolving fields where there is always the possibility to learn more and
+     obtain a deeper understanding of concepts, which is my ultimate goal.
+  </p>
   <a href="#nav" class="hoverable" target="_self"><i class="material-icons">keyboard_arrow_up</i></a>
 </div>
 <div id="resume">
@@ -71,42 +93,138 @@
   <p>February 2009 ­- June 2012</p>
   <p>Relevant Courses: Intro to CS | C | Java</p>
 </div>
+
 <div id="work">
   <h2>PROJECTS</h2>
   <div id="projects">
     <md-grid-list md-cols="4" md-cols-sm="2" md-cols-md="4" md-cols-lg="4" md-row-height="4:2">
+
       <md-grid-tile>
-        <div ng-click="showBrick = !showBrick" id="brick-breaker"></div>
+        <md-card>
+          <img src="/assets/brickbreaker_pic.png" ng-click="showBrick = !showBrick" class="md-card-image" alt="Brick Breaker">
+          <div ng-show="showBrick">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline"><h3>Brick Breaker</h3></span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              <p>Brick Breaker is my version of the original arcade game
+                Breakout.</p>
+              <h4>Development:</h4>
+              <p>Javascript | HTML5 Canvas | CSS</p>
+              <div class="links">
+                <a href="https://github.com/yaelamir/project1" class="links">Github</a>
+                <a href="https://young-tundra-88777.herokuapp.com/" class="links">Website</a>
+              </div>
+            </md-card-content>
+          </div>
+        </md-card>
       </md-grid-tile>
+
       <md-grid-tile>
-        <div id="gitlove"></div>
+        <md-card>
+          <img src="/assets/gitlove_pic.png" ng-click="showGit = !showGit" class="md-card-image" alt="GitLove">
+          <div ng-show="showGit">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline"><h3>GitLove</h3></span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              <p>GitLove is a dating application geared specifically towards
+                 developers seeking for relationship with another developer.</p>
+              <h4>Development:</h4>
+              <p>HTML | CSS | Ruby | Ruby on Rails | Bootstrap |
+                 Ruby gems (Paperclip, bcrypt, puma, etc)</p>
+              <div class="links">
+                <a href="https://github.com/yaelamir/date_a_dev" class="links">Github</a>
+                <a href="http://yaelamir.github.io/project1/" class="links">Website</a>
+              </div>
+            </md-card-content>
+          </div>
+        </md-card>
       </md-grid-tile>
+
       <md-grid-tile>
-        <div id="vurs"></div>
+        <md-card>
+          <img src="/assets/vurs_pic.png" ng-click="showVurs = !showVurs" class="md-card-image" alt="Vurs">
+          <div ng-show="showVurs">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline"><h3>VURS</h3></span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              <p>A music application where the purpose of the app is to
+                 solve the issue that music applications are generally
+                 computer generated. Vurs is based on user generated song
+                 recommendations.</p>
+              <h4>Development:</h4>
+              <p>Mongoose | Express | Node.js | MongoDB | Lo-dash | Passport/OAuth
+                 | Soundcloud API/SDK | HTML5 | CSS | JavaScript | Modernizr CSS |
+                 CSS | jQuery | AJAX</p>
+              <div class="links">
+                <a href="https://github.com/yaelamir/vurs" class="links">Github</a>
+                <a href="https://mysterious-garden-27618.herokuapp.com/" class="links">Website</a>
+              </div>
+            </md-card-content>
+          </div>
+        </md-card>
       </md-grid-tile>
+
       <md-grid-tile>
-        <div id="juicy"></div>
+        <md-card>
+          <img src="/assets/juicy_pic.png" ng-click="showJuicy = !showJuicy" class="md-card-image" alt="Juicy">
+          <div ng-show="showJuicy">
+            <md-card-title>
+              <md-card-title-text>
+                <span class="md-headline"><h3>Juicy</h3></span>
+              </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+              <p>Juicy is a juice ordering app, where you can customize
+                 your own juice, then immediately see the nutrition facts for
+                 your juice.</p>
+              <h4>Development:</h4>
+              <p>Mongoose | Express | Node.js | AngularJS | MongoDB | Lo-dash | Auth
+                 | HTML5 | CSS | JavaScript | CSS | jQuery | Materialize</p>
+              <div class="links">
+                <a href="https://github.com/yaelamir/juice" class="links">Github</a>
+                <a href="https://morning-wave-96713.herokuapp.com/#/" class="links">Website</a>
+              </div>
+            </md-card-content>
+          </div>
+        </md-card>
       </md-grid-tile>
     </md-grid-list>
   </div>
 </div>
+
 <div id="contact">
   <h2>CONTACT</h2>
   <!-- <img src="http://wattsand.com/images/linkedin.png" alt="linkdin"> -->
   <!-- <img src="http://wattsand.com/images/email.png" alt="email"> -->
   <!-- <i class="material-icons">email</i> -->
   <md-grid-list md-cols="4" md-row-height="4:4">
-    <div id="icons">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/120px-Octicons-mark-github.svg.png" alt="github">
-      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJkD9szwADkk5StNE8eInvSXj8junYSA-GOScFG_CbRoC-toVaEc3AnfBS" alt="linkdin">
-      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSmQLqgqju6SHZqvh_FnMntjd3yT9qJItDQG-P6b23U66oYLvjMlZRV7UI" alt="email">
-      <div ng-click="showPhone = !showPhone"><img src="https://cdn1.iconfinder.com/data/icons/phones-2/512/phone_symbol_1-128.png" alt="phone"></div>
-      <div ng-click="showAddress = !showAddress"><img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/v1/202290/home-icon-strikingly_f7wi0x.png" alt="address"></div>
-      <div ng-show="showAddress"><p>111 West 7th Street</p></div>
-      <div ng-show="showPhone"><p>323-308-9801</p></div>
+
+      <div id="icons">
+        <a href="https://github.com/yaelamir" target="_blank"><img src="/assets/github_icon.png" alt="github" id="gitbub"></a>
+        <a href="https://www.linkedin.com/in/yaelamir" target="_blank"><img src="/assets/linkdin_icon.png" alt="linkdin" class="smaller-icon"></a>
+        <a href="mailto:yaelamir1@gmail.com"><img src="/assets/email_icon.png" alt="email" class="smaller-icon"></a>
+        <div ng-click="showPhone = !showPhone"><img src="/assets/phone_icon.png" alt="phone" id="phone"></div>
+        <div ng-click="showAddress = !showAddress"><img src="/assets/home_icon.png" alt="address" id="address"></div>
+
+      <div id="shows">
+        <div ng-show="showAddress" id="addy"><h3>Address:</h3><br><p>111 West 7th Street <br> Los Angeles, CA 90014</p></div>
+        <div ng-show="showPhone" id="numba"><h3>Phone:</h3><br><p>323-308-9801</p></div>
+      </div>
+
     </div>
   </md-grid-list>
 </div>
+
+
 
 
 

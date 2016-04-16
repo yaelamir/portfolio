@@ -11,6 +11,7 @@
         var vm = this;
 
         vm.scrollTo = scrollTo;
+        vm.imagePath = '/assets/brickbreaker_pic.png';
 
         function scrollTo(id) {
           var old = $location.hash();
