@@ -90,7 +90,7 @@ h4 {
 }
 
 #name {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 35px;
 }
 
@@ -126,7 +126,7 @@ a:not(.md-button) {
 
 #home {
   background-attachment: fixed;
-  background-image: url("https://i.imgur.com/PlJZuna.png");
+  background-image: url("/assets/dtla.png");
   /*height: 500px;*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -259,8 +259,9 @@ md-card > img {
   padding-left: 5%;
   padding-right: 5%;
   line-height: 1.8em;
-  width: 100%;
+  /*width: 100%;*/
   /*position: fixed;*/
+  margin-bottom: 0;
 }
 
 img {
@@ -317,3 +318,7 @@ img.smaller-icon {
   padding-top: 10px !important;
   float: right;
 }
+
+/*#ga {
+
+}*/
