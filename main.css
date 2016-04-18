@@ -205,7 +205,7 @@ a:not(.md-button) {
   padding-right: 5%;
   line-height: 1.8em;
   /*overflow: scroll;*/
-  /*height: 900px;*/
+  height: 900px;
   margin-bottom: 70px;
   overflow: scroll;
 }
