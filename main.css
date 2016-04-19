@@ -207,7 +207,7 @@ a:not(.md-button) {
   /*overflow: scroll;*/
   height: 900px;
   margin-bottom: 70px;
-  overflow: scroll;
+  overflow: visible;
 }
 
 #projects {
@@ -235,12 +235,40 @@ a:not(.md-button) {
 
 md-card {
   text-align: center;
-  margin-bottom: 5px;
-  margin-top: auto;
+ /* margin-bottom: 5px;
+  margin-top: auto;*/
+  margin: 20px;
+}
+
+.md-padding {
+  padding: 0 !important;
+
+}
+
+.md-padding > md-card {
+  margin-left: 0 !important;
 }
 
 md-card > img {
   box-shadow: 0 0 5px 1px rgba(0,0,0,.35);
+}
+
+md-card {
+
+}
+
+md-content {
+  background-color: inherit;
+  text-align: center;
+}
+
+span.md-title > h3 {
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+}
+
+md-card-title-text {
+  margin-top: 0;
 }
 
 /*---------contact----------*/

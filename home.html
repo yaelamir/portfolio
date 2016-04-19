@@ -97,115 +97,105 @@
 <div id="work">
   <h2>PROJECTS</h2>
   <div id="projects">
-    <md-grid-list md-cols="4" md-cols-sm="2" md-cols-md="4" md-cols-lg="4" md-row-height="4:2">
+  <!-- ************************brick breaker************************ -->
+    <md-content class="md-padding" layout-xs="column" layout="row">
+      <md-card flex-xs flex-gt-xs="35" layout="column">
+        <md-card-header>
+          <md-card-header-text>
+            <span class="md-title"><h3>Brick Breaker</h3></span>
+          </md-card-header-text>
+        </md-card-header>
+        <img ng-src="/assets/brickbreaker_pic.png" class="md-card-image" alt="Brick Breaker" ng-click="showBrick = !showBrick">
+        <md-card-content ng-show="showBrick">
+          <p>Brick Breaker is my version of the original arcade game Breakout.</p>
+          <p>Javascript | HTML5 Canvas | CSS</p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="start center">
+          <a href="https://github.com/yaelamir/project1" class="links"><md-button>GitHub</md-button></a>
+          <a href="https://young-tundra-88777.herokuapp.com/" class="links"><md-button>Website</md-button></a>
+        </md-card-actions>
+      </md-card>
 
-      <md-grid-tile>
-        <md-card>
-          <img src="/assets/brickbreaker_pic.png" ng-click="showBrick = !showBrick" class="md-card-image" alt="Brick Breaker">
-          <div ng-show="showBrick">
-            <md-card-title>
-              <md-card-title-text>
-                <span class="md-headline"><h3>Brick Breaker</h3></span>
-              </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-              <p>Brick Breaker is my version of the original arcade game
-                Breakout.</p>
-              <h4>Development:</h4>
-              <p>Javascript | HTML5 Canvas | CSS</p>
-              <div class="links">
-                <a href="https://github.com/yaelamir/project1" class="links">Github</a>
-                <a href="https://young-tundra-88777.herokuapp.com/" class="links">Website</a>
-              </div>
-            </md-card-content>
-          </div>
-        </md-card>
-      </md-grid-tile>
+<!-- ************************GitLove************************ -->
+  <md-card flex-xs flex-gt-xs="35" layout="column">
+    <md-card-header>
+      <md-card-header-text>
+        <span class="md-title"><h3>GitLove</h3></span>
+      </md-card-header-text>
+    </md-card-header>
+    <img ng-src="/assets/gitlove_pic.png" class="md-card-image" alt="GitLove" ng-click="showLove = !showLove">
+    <md-card-content ng-show="showLove">
+      <p>GitLove is a dating application geared specifically
+      towards developers seeking for relationship with another developer.</p>
+      <p>HTML | CSS | Ruby | Ruby on Rails | Bootstrap |
+      Ruby gems (Paperclip, bcrypt, puma, etc)</p>
+    </md-card-content>
+    <md-card-actions layout="row" layout-align="start center">
+      <a href="https://github.com/yaelamir/date_a_dev" class="links"><md-button>GitHub</md-button></a>
+      <a href="http://yaelamir.github.io/project1/" class="links"><md-button>Website</md-button></a>
+    </md-card-actions>
+  </md-card>
 
-      <md-grid-tile>
-        <md-card>
-          <img src="/assets/gitlove_pic.png" ng-click="showGit = !showGit" class="md-card-image" alt="GitLove">
-          <div ng-show="showGit">
-            <md-card-title>
-              <md-card-title-text>
-                <span class="md-headline"><h3>GitLove</h3></span>
-              </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-              <p>GitLove is a dating application geared specifically towards
-                 developers seeking for relationship with another developer.</p>
-              <h4>Development:</h4>
-              <p>HTML | CSS | Ruby | Ruby on Rails | Bootstrap |
-                 Ruby gems (Paperclip, bcrypt, puma, etc)</p>
-              <div class="links">
-                <a href="https://github.com/yaelamir/date_a_dev" class="links">Github</a>
-                <a href="http://yaelamir.github.io/project1/" class="links">Website</a>
-              </div>
-            </md-card-content>
-          </div>
-        </md-card>
-      </md-grid-tile>
+<!-- ************************VURS************************ -->
 
-      <md-grid-tile>
-        <md-card>
-          <img src="/assets/vurs_pic.png" ng-click="showVurs = !showVurs" class="md-card-image" alt="Vurs">
-          <div ng-show="showVurs">
-            <md-card-title>
-              <md-card-title-text>
-                <span class="md-headline"><h3>VURS</h3></span>
-              </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-              <p>A music application where the purpose of the app is to
-                 solve the issue that music applications are generally
-                 computer generated. Vurs is based on user generated song
-                 recommendations.</p>
-              <h4>Development:</h4>
-              <p>Mongoose | Express | Node.js | MongoDB | Lo-dash | Passport/OAuth
-                 | Soundcloud API/SDK | HTML5 | CSS | JavaScript | Modernizr CSS |
-                 CSS | jQuery | AJAX</p>
-              <div class="links">
-                <a href="https://github.com/yaelamir/vurs" class="links">Github</a>
-                <a href="https://mysterious-garden-27618.herokuapp.com/" class="links">Website</a>
-              </div>
-            </md-card-content>
-          </div>
-        </md-card>
-      </md-grid-tile>
+<md-card flex-xs flex-gt-xs="35" layout="column">
 
-      <md-grid-tile>
-        <md-card>
-          <img src="/assets/juicy_pic.png" ng-click="showJuicy = !showJuicy" class="md-card-image" alt="Juicy">
-          <div ng-show="showJuicy">
-            <md-card-title>
-              <md-card-title-text>
-                <span class="md-headline"><h3>Juicy</h3></span>
-              </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-              <p>Juicy is a juice ordering app, where you can customize
-                 your own juice, then immediately see the nutrition facts for
-                 your juice.</p>
-              <h4>Development:</h4>
-              <p>Mongoose | Express | Node.js | AngularJS | MongoDB | Lo-dash | Auth
-                 | HTML5 | CSS | JavaScript | CSS | jQuery | Materialize</p>
-              <div class="links">
-                <a href="https://github.com/yaelamir/juice" class="links">Github</a>
-                <a href="https://morning-wave-96713.herokuapp.com/#/" class="links">Website</a>
-              </div>
-            </md-card-content>
-          </div>
-        </md-card>
-      </md-grid-tile>
-    </md-grid-list>
-  </div>
+  <md-card-header>
+    <md-card-header-text>
+      <span class="md-title"><h3>VURS</h3></span>
+    </md-card-header-text>
+  </md-card-header>
+  <img ng-src="/assets/vurs_pic.png" class="md-card-image" alt="VURS" ng-click="showVurs = !showVurs">
+  <md-card-content ng-show="showVurs">
+    <p>A music application where the purpose of the app is to
+    solve the issue that music applications are generally
+    computer generated. Vurs is based on user generated song
+    recommendations.</p>
+    <p>Mongoose | Express | Node.js | MongoDB | Lo-dash | Passport/OAuth
+    | Soundcloud API/SDK | HTML5 | CSS | JavaScript | Modernizr CSS |
+    CSS | jQuery | AJAX</p>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="start center">
+    <a href="https://github.com/yaelamir/vurs" class="links"><md-button>GitHub</md-button></a>
+    <a href="https://mysterious-garden-27618.herokuapp.com/" class="links"><md-button>Website</md-button></a>
+  </md-card-actions>
+</md-card>
+
+<!-- ************************Juicy************************ -->
+
+  <md-card flex-xs flex-gt-xs="35" layout="column">
+    <md-card-header>
+      <md-card-header-text>
+        <span class="md-title"><h3>Juicy</h3></span>
+      </md-card-header-text>
+    </md-card-header>
+    <img ng-src="/assets/juicy_pic.png" class="md-card-image" alt="Brick Breaker" ng-click="showJuice = !showJuice">
+    <md-card-content ng-show="showJuice">
+      <p>Juicy is a juice ordering app, where you can customize
+      your own juice, then immediately see the nutrition facts for
+      your juice.</p>
+      <p>Mongoose | Express | Node.js | AngularJS | MongoDB | Lo-dash | Auth
+      | HTML5 | CSS | JavaScript | CSS | jQuery | Materialize</p>
+    </md-card-content>
+    <md-card-actions layout="row" layout-align="start center">
+      <a href="https://github.com/yaelamir/juice" class="links"><md-button>GitHub</md-button></a>
+      <a href="https://morning-wave-96713.herokuapp.com/#/" class="links"><md-button>Website</md-button></a>
+    </md-card-actions>
+  </md-card>
+
+</md-content>
+
+
+
+
+
+
+
 </div>
 
 <div id="contact">
   <h2>CONTACT</h2>
-  <!-- <img src="http://wattsand.com/images/linkedin.png" alt="linkdin"> -->
-  <!-- <img src="http://wattsand.com/images/email.png" alt="email"> -->
-  <!-- <i class="material-icons">email</i> -->
+
   <md-grid-list md-cols="4" md-row-height="4:4">
 
       <div id="icons">
