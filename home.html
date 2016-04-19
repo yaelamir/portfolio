@@ -1,4 +1,4 @@
-<div id="home">
+<div id="home" class="panel">
   <div id="nav" class="clearfix">
     <a href="#about" class="nav" target="_self">ABOUT</a>
     <a href="#resume" class="nav" target="_self">RESUME</a>
@@ -7,7 +7,8 @@
   </div>
   <h1 id="name">YAEL AMIR</h1>
 </div>
-<div id="about">
+<div id="main">
+<div id="about" class="panel">
   <h2>ABOUT</h2>
   <p>Hi my name is Yael Amir and I'm a front end developer with experience
      in back end development. Having graduated from General Assembly's Web
@@ -35,7 +36,7 @@
   </p>
   <a href="#nav" class="hoverable" target="_self"><i class="material-icons">keyboard_arrow_up</i></a>
 </div>
-<div id="resume">
+<div id="resume" class="panel">
   <h2>RESUME</h2>
   <h3>Skills</h3>
   <ul>
@@ -94,7 +95,7 @@
   <p>Relevant Courses: Intro to CS | C | Java</p>
 </div>
 
-<div id="work">
+<div id="work" class="panel">
   <h2>PROJECTS</h2>
   <div id="projects">
   <!-- ************************brick breaker************************ -->
@@ -188,7 +189,7 @@
 </div>
 </div>
 
-<div id="contact">
+<div id="contact" class="panel">
   <h2>CONTACT</h2>
 
   <md-grid-list md-cols="4" md-row-height="4:4">
@@ -201,15 +202,15 @@
         <div ng-click="showPhone = !showPhone"><img src="/assets/phone_icon.png" alt="phone" id="phone"></div>
         <div ng-click="showAddress = !showAddress"><img src="/assets/home_icon.png" alt="address" id="address"></div>
 
-      <div id="shows">
-        <div ng-show="showAddress" id="addy"><h3>Address:</h3><br><p>111 West 7th Street <br> Los Angeles, CA 90014</p></div>
-        <div ng-show="showPhone" id="numba"><h3>Phone:</h3><br><p>323-308-9801</p></div>
-      </div>
+        <div id="shows">
+          <div ng-show="showAddress" id="addy"><p>111 West 7th Street <br> Los Angeles, CA 90014</p></div>
+          <div ng-show="showPhone" id="numba"><p>323-308-9801</p></div>
+        </div>
 
     </div>
   </md-grid-list>
 </div>
-
+</div>
 
 
 
