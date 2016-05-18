@@ -358,21 +358,21 @@ img.smaller-icon {
 /****************************responsive css****************************/
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-device-width: 480px) {
   body {
-    font-size: 90%;
+    font-size: 100% !important;
   }
 }
 
 @media only screen and (max-width: 800px) {
   body {
-    font-size:100%;
+    font-size: 100%;
   }
 }
 
 @media only screen and (max-width: 1100px) {
   body {
-    font-size:120%;
+    font-size: 120%;
   }
 
   #nav {
@@ -381,6 +381,7 @@ img.smaller-icon {
 
 }
 /******************************scrolling******************************/
+
 a[ id= "about" ]:target ~ #main div.panel {
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
